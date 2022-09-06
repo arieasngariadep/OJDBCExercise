@@ -1,20 +1,9 @@
 package Tools;
 
-import Controllers.JobController;
-import Daos.JobDAO;
 import Daos.RegionDAO;
-import IControllers.IJobController;
-import IDaos.IJobDAO;
 import IDaos.IRegionDAO;
-import Models.Country;
-import Models.Job;
-import Models.Region;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Predicate;
-
-public class OJDBC {
+public class Testing_OJDBC {
     public static void main(String[] args) throws Exception {
           DBConnection connection = new DBConnection();
 //  ===============================================================================================
